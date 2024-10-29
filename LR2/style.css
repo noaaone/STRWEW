@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "overdozesans"; 
+    src: url("fonts/overdozesans.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "Pacifico-Regular"; 
+    src: url("fonts/Pacifico-Regular.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular"; 
+    src: url("fonts/AmaticSC-Regular.ttf") format("truetype"); 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFACD;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none; 
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.cinema-one{
+    font-family: "overdozesans"; 
+}
+
+#cinema-one p {
+    text-align: left;
+}
+
+.cinema-two{
+    font-family: "Pacifico-Regular"; 
+}
+
+#cinema-two p {
+    text-align: center; 
+}
+
+.cinema-three{
+    font-family: "AmaticSC-Regular"; 
+}
+
+#cinema-three p {
+    text-align: right;
+    font-weight: bold;
+}
+
+img {
+    width: 350px; 
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 25px;
+}
